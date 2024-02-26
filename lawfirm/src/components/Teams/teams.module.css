@@ -1,0 +1,93 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 1156px;
+height: 425px;
+top: 4397px;
+left: 154px;
+border-radius: 14px;
+
+margin-bottom: 5em;
+
+}
+.teamHeading{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+   margin-bottom: 1em;
+color:var(--color-tertiary);
+display:flex;
+justify-content: center;
+align-items: center;
+vertical-align: middle;
+}
+.cardSet{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    gap:5em;
+}
+.card{
+    width: 209px;
+    height: 68px;
+    top: 4601px;
+    left: 154px;
+    display: flex;
+    justify-content: space-around;
+    color:var(--color-tertiary);
+    background: rgba(0,0,0,0.5);
+    padding:2em;
+    border-radius: 2em;
+    margin-left:3em;
+}
+.image{
+    width: 68px;
+height: 68px;
+top: 4601px;
+left: 154px;
+border-radius: 50%;
+}
+.padColor{
+    
+    background-color: var(--color-secondary);
+    color:var(--color-primary);
+}
+.intro{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+}
+.name{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 119px;
+height: 24px;
+top: 4608px;
+left: 244px;
+
+    
+}
+.subHeader{
+    width: 69px;
+    height: 24px;
+    top: 4638px;
+    left: 244px;
+    opacity: 0.3px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+opacity: 0.6;
+    
+}

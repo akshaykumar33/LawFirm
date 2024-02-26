@@ -1,0 +1,86 @@
+.container{
+
+padding:2em;
+width:56em;
+height:15em;
+z-index: 1;
+box-shadow: 0 4px 8px rgba(116, 114, 114, 0.5);
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+vertical-align: middle;
+margin-left:8em;
+margin-bottom: 3em;
+background-color: rgb(35, 33, 33);
+color:var(--color-tertiary);
+}
+.subscribeHeader{
+ width: 659px;
+height: 75px;
+/* top: 5956px;
+left: 390px; */
+font-family: Helvetica Now Display;
+font-size: 45px;
+font-weight: 500;
+line-height: 5px;
+letter-spacing: 0em;
+text-align: center;
+color:var(--color-tertiary);
+
+}
+
+.inputBox{
+width: 600px;
+height: 45px;
+/* top: 6073px;
+left: 377px; */
+display:flex;
+justify-content: center;
+flex-direction: row;
+row-gap:1em;
+}
+.nameInput{
+
+    padding: 0.5em;
+    width: 276px;
+    height: 32px;
+/* top: 6073px;
+left: 377px; */
+border:1px solid var(--color-tertiary);
+border-radius: 2em, 0em, 0em, 1em;
+background: #E4E4E4;
+border-top-left-radius: 1em;
+border-bottom-left-radius: 1em;
+}
+
+.emailInput{
+    padding: 0.5em;
+    width: 276px;
+    height: 32px;
+    margin-left:0.15em;
+    border:1px solid var(--color-tertiary);
+    /* top: 6073px;
+    left: 662px; */
+    background: #E4E4E4;
+    
+}
+.button{
+    width: 116px;
+    height: 47px;
+    /* top: 6073px;
+    left: 947px; */
+    border:1px solid var(--color-tertiary);
+    border-top-right-radius: 1em;
+border-bottom-right-radius: 1em;
+    margin-left:0.15em;
+  font-family: Helvetica Now Display;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color:var(--color-primary);
+    background: var(--color-secondary);
+    
+}

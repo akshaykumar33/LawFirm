@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Inter;
+  height:15em;
+}
+
+.footHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em; 
+  color: var(--color-tertiary);
+}
+
+.tab {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--color-tertiary);
+}
+
+.subTabs {
+  padding: 2.5em; 
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40em;
+vertical-align: text-top;
+  flex-wrap: nowrap;
+  font-family: Inter;
+  color: var(--color-tertiary);
+  font-size: x-small;
+}
+
+.subFoot {
+  padding: 2.5em;
+
+}
+

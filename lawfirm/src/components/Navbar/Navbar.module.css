@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+   padding:0.25em
+}
+
+.tab{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    vertical-align: middle;
+    color:var(--color-tertiary);
+}
+.subTabs{
+  padding: 1em;
+}
+.button{
+width: 172px;
+height: 47px;
+top: 53px;
+left: 1116px;
+border: 2px solid var(--color-tertiary);
+background-color: var(--color-primary);
+color:var(--color-tertiary);
+cursor: pointer;
+display:flex;
+justify-content: center;
+vertical-align: middle;
+align-items: center;
+}
+.buttonName{
+
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+width: 101px;
+height: 19px;
+top: 67px;
+left: 1152px;
+vertical-align: middle;
+}
