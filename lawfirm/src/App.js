@@ -1,5 +1,6 @@
 
 import './App.css';
+import { useEffect } from 'react';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 import Navbar from './components/Navbar/Navbar';
@@ -14,6 +15,9 @@ import Teams from './components/Teams/Teams';
 import FAQs from './components/FAQs/FAQs';
 
 function App() {
+  useEffect(()=>{
+    alert("Please view this in Desktop or change your browser's mode to desktop view to utilize and experience richness of site")
+  },[])
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
